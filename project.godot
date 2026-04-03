@@ -13,7 +13,11 @@ config_version=5
 config/name="NavalChess"
 run/main_scene="res://src/main/Main.tscn"
 config/features=PackedStringArray("4.5", "GL Compatibility")
-config/main_scene="res://src/main/Main.tscn"
+config/main_scene="res://src/lobby/Lobby.tscn"
+
+[autoload]
+
+NetworkManager="*res://src/systems/network_manager.gd"
 
 [display]
 
